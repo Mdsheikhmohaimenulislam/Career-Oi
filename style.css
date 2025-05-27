@@ -265,13 +265,27 @@
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
   .video {
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 60px;
   }
+.main-text{
+    width: 500px;
+    text-align: center;
+   margin: 0 auto;
 }
+
+}
+
+
+
+
+
 @media screen and (max-width: 576px) {
  .video {
     max-width: 300px;
