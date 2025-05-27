@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -8,62 +8,103 @@
 
 /* Header section */
 
-.body{
-   
-   margin: 0 auto;
-    background-image: linear-gradient(to right, #B8E7FA ,  #E6E6FA);
+.body {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #b8e7fa, #e6e6fa);
 }
 
-.nav-h1{
-    color: #FFA500;
-
+.nav-h1 {
+  color: #ffa500;
 }
 
-.btn{
- background-image: linear-gradient(to right, #FFA500 ,  #FFD447);
- color: #0D1321;
- border: none;
- padding: 10px;
- border-radius: 7px;
- 
+.btn {
+  background-image: linear-gradient(to right, #ffa500, #ffd447);
+  color: #0d1321;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
 }
-.btn:hover{
-  background:rgb(123, 123, 250);
+.btn:hover {
+  background: rgb(123, 123, 250);
   color: white;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FFFFFF;
-    padding: 10px;
-    box-shadow: 0 35px 35px rgb(25, 25, 25 / 25);
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 35px 35px rgb(25, 25, 25 / 25);
 
-      /* max-width: 900px;
+  /* max-width: 900px;
   margin: 20px auto;
     padding: 15px 30px; */
-    
 }
 
-.banner-hero{
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    background: #E6EDF9;
+.banner-hero {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background: #e6edf9;
 }
 
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    flex-direction: column;
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.main-banner {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+.main-banner-text {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background: #e6edf9;
+  padding: 30px;
+}
+
+.main-banner-text-p {
+  color: #384157;
+}
+
+/* My-Inspiration section */
+
+.My-Inspiration {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 30px;
+  text-align: center;
+}
+.My-Inspiration-text {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.video{
+    border:1px solid gray;
     padding: 20px;
+    border-radius: 8px;
 }
 
-.hero-text{
-
-    text-align: center;
-}
