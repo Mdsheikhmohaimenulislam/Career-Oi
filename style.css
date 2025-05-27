@@ -45,3 +45,25 @@
     padding: 15px 30px; */
     
 }
+
+.banner-hero{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: #E6EDF9;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero-text{
+
+    text-align: center;
+}
