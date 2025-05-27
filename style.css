@@ -131,3 +131,13 @@
   text-align: center;
   margin-bottom: 60px;
 }
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
